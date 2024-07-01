@@ -1,0 +1,51 @@
+{
+  "name": "lovedoloveofficial-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "prod": "prettier --write . && vite build && vite preview --host",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "@popperjs/core": "^2.11.8",
+    "@vueuse/core": "^10.11.0",
+    "animate.css": "^4.1.1",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "crypto-js": "^4.2.0",
+    "datatables": "^1.10.18",
+    "datatables.net-bs5": "^2.0.8",
+    "datatables.net-responsive": "^3.0.2",
+    "datatables.net-select": "^2.0.3",
+    "datatables.net-vue3": "^3.0.1",
+    "element-plus": "^2.7.6",
+    "file-saver": "^2.0.5",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.7.1",
+    "js-cookie": "^3.0.5",
+    "normalize.css": "^8.0.1",
+    "papaparse": "^5.4.1",
+    "sweetalert2": "^11.12.0",
+    "vue": "^3.4.30",
+    "vue-lazyload": "^3.0.0",
+    "vue-router": "^4.4.0",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "eslint": "^9.5.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-vue": "^9.26.0",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
+    "prettier": "^3.3.2",
+    "sass": "^1.77.6",
+    "sass-loader": "^14.2.1",
+    "vite": "^5.3.1"
+  }
+}
