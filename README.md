@@ -9,38 +9,66 @@ VueXpressPro is a comprehensive full-stack development template designed for web
   - Element Plus for UI components
   - Axios for HTTP requests
   - Integrated with various Vue libraries for enhanced functionality
-  
 - **Backend Stack:**
   - Express.js for server-side application logic
   - Middleware for handling CORS, cookies, and more
   - Integration with Supabase for database interactions
   - Authentication and authorization functionalities
-  
 - **Tooling:**
   - Vite for frontend development with fast build times
   - ESLint and Prettier for code linting and formatting
   - Sass and Less support for styling flexibility
-  
+
 ## Getting Started
 
 To get started with VueXpressPro, follow these steps:
 
 1. **Clone the repository:**
+
 - git clone https://github.com/LoveDoLove/VueXpressPro
 - cd VueXpressPro
 
 2. **Install dependencies:**
+
 - Do `npm install` in backend and frontend folder
 
 3. **Configure environment variables:**
+
 - Development environment `.env.development`
 - Production environment `.env.production`
 
 4. **Run the development server:**
+
 - Do `npm run dev` in frontend and backend folder
 
 5. **Open your browser:**
+
 - Navigate to `http://localhost:5173` to view the Vue.js frontend.
+- Backend APIs are accessible at `http://localhost:3000`.
+
+## Production Deployment
+
+To deploy VueXpressPro to a production environment, follow these steps:
+
+1. **Build the frontend:**
+
+- Do `npm run build` in frontend folder
+
+2. **Build the backend:**
+
+- Do `npm run build` in backend folder
+
+3. **Start the backend server:**
+
+- Do `npm start` in backend folder
+
+4. **Start the frontend server:**
+
+- Do `npm run preview` in frontend folder
+
+5. **Open your browser:**
+
+- Navigate to `http://localhost:4173` to view the Vue.js frontend.
 - Backend APIs are accessible at `http://localhost:3000`.
 
 ## Contribution
@@ -48,6 +76,7 @@ To get started with VueXpressPro, follow these steps:
 Contributions are welcome! If you have suggestions for improvements or new features, please open an issue or submit a pull request.
 
 ## Acknowledgments
+
 The frontend structure and setup were inspired by [wsheeny/vite-vue-template](https://github.com/wsheeny/vite-vue-template). We extend our gratitude to the contributors of that project for their work.
 
 ## License
