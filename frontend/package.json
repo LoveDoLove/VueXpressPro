@@ -15,7 +15,7 @@
     "@popperjs/core": "^2.11.8",
     "@vueuse/core": "^10.11.0",
     "animate.css": "^4.1.1",
-    "axios": "^1.7.2",
+    "axios": "^1.7.4",
     "bootstrap": "^5.3.3",
     "crypto-js": "^4.2.0",
     "datatables": "^1.10.18",
@@ -30,7 +30,7 @@
     "js-cookie": "^3.0.5",
     "normalize.css": "^8.0.1",
     "papaparse": "^5.4.1",
-    "sweetalert2": "^11.12.0",
+    "sweetalert2": "^11.14.1",
     "vue": "^3.4.30",
     "vue-lazyload": "^3.0.0",
     "vue-router": "^4.4.0",
@@ -46,6 +46,6 @@
     "prettier": "^3.3.2",
     "sass": "^1.77.6",
     "sass-loader": "^14.2.1",
-    "vite": "^5.3.1"
+    "vite": "^5.4.6"
   }
 }
