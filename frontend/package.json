@@ -13,7 +13,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.6.0",
     "@popperjs/core": "^2.11.8",
-    "@vueuse/core": "^11.1.0",
+    "@vueuse/core": "^11.2.0",
     "animate.css": "^4.1.1",
     "axios": "^1.7.7",
     "bootstrap": "^5.3.3",
@@ -23,29 +23,29 @@
     "datatables.net-responsive": "^3.0.3",
     "datatables.net-select": "^2.1.0",
     "datatables.net-vue3": "^3.0.2",
-    "element-plus": "^2.8.6",
+    "element-plus": "^2.8.7",
     "file-saver": "^2.0.5",
     "font-awesome": "^4.7.0",
     "jquery": "^3.7.1",
     "js-cookie": "^3.0.5",
     "normalize.css": "^8.0.1",
     "papaparse": "^5.4.1",
-    "sweetalert2": "^11.14.4",
+    "sweetalert2": "^11.14.5",
     "vue": "^3.5.12",
     "vue-lazyload": "^3.0.0",
     "vue-router": "^4.4.5",
     "vuex": "^4.1.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.1.4",
-    "eslint": "^9.13.0",
+    "@vitejs/plugin-vue": "^5.2.0",
+    "eslint": "^9.14.0",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-vue": "^9.29.1",
+    "eslint-plugin-vue": "^9.31.0",
     "less": "^4.2.0",
     "less-loader": "^12.2.0",
     "prettier": "^3.3.3",
-    "sass": "^1.80.4",
-    "sass-loader": "^16.0.2",
-    "vite": "^5.4.10"
+    "sass": "^1.80.7",
+    "sass-loader": "^16.0.3",
+    "vite": "^5.4.11"
   }
 }
