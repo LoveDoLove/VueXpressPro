@@ -17,23 +17,23 @@
   "description": "",
   "dependencies": {
     "@types/express": "^5.0.0",
-    "axios": "^1.7.7",
+    "axios": "^1.7.9",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.21.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
     "multer": "^1.4.5-lts.1",
     "mysql": "^2.18.1",
     "nodemailer": "^6.9.16",
-    "nodemon": "^3.1.7",
-    "pino": "^9.5.0",
+    "nodemon": "^3.1.9",
+    "pino": "^9.6.0",
     "pino-http": "^10.3.0",
     "pino-pretty": "^13.0.0",
-    "prettier": "^3.3.3",
+    "prettier": "^3.4.2",
     "sharp": "^0.33.5"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.38.2",
+    "@vercel/ncc": "^0.38.3",
     "cross-env": "^7.0.3",
     "shx": "^0.3.4"
   }
