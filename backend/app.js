@@ -13,9 +13,9 @@ dotenv.config({ path: path.resolve(__dirname, `.env.${env}`) })
 logger.info('Environment: ' + env)
 
 const app = express()
+app.use(cors())
 app.use(express.json())
 app.use(cookieParser())
-app.use(cors())
 app.use(express.urlencoded({ extended: true }))
 
 app.use(
