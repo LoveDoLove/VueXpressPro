@@ -5,7 +5,7 @@ const express = require('express')
 const cookieParser = require('cookie-parser')
 const cors = require('cors')
 const pinoHttp = require('pino-http')
-const logger = require('./utils/logger')
+const logger = require('./utils/loggerHelper')
 
 const env = process.env.NODE_ENV || 'development'
 dotenv.config({ path: path.resolve(__dirname, `.env.${env}`) })

@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const sample = require('./sampleRoutes')
+const sample = require('./sample')
 
 router.use('/sample', sample)
 
